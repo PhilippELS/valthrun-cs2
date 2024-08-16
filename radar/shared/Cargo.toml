@@ -1,0 +1,9 @@
+[package]
+name = "radar-shared"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+anyhow = { workspace = true }
+serde = { version = "1.0.210", features = ["derive"] }
+typescript-type-def = "0.5.13"

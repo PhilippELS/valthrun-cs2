@@ -1,0 +1,8 @@
+[files]
+extend-exclude = ["*.json"]
+
+[default.extend-identifiers]
+typ = "ty"
+MipLODBias = "MipLODBias"
+MinLOD = "MinLOD"
+MaxLOD = "MaxLOD"

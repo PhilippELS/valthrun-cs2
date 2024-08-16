@@ -1,0 +1,8 @@
+[package]
+name = "cs2-schema-cutl"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+anyhow = { workspace = true }
+raw_struct = { workspace = true }

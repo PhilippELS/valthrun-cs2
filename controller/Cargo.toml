@@ -1,0 +1,47 @@
+[package]
+name = "controller"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+anyhow = { workspace = true }
+log = { workspace = true }
+env_logger = { workspace = true }
+raw_struct = { workspace = true }
+obfstr = { workspace = true }
+nalgebra = { workspace = true }
+mint = { workspace = true }
+
+serde = { version = "1.0.178", features = ["derive"] }
+serde_json = "1.0.104"
+serde_yaml = "0.9.25"
+serde_with = "3.8.3"
+
+cs2 = { path = "../cs2" }
+cs2-schema-provider-impl = { path = "../cs2-schema/provider-impl" }
+cs2-schema-generated = { path = "../cs2-schema/generated" }
+cs2-schema-cutl = { path = "../cs2-schema/cutl" }
+overlay = { path = "../overlay" }
+utils-state = { path = "../utils/state" }
+
+imgui = { version = "0.12", features = ["tables-api"] }
+clap = { version = "4.3.19", features = ["derive"] }
+windows = { version = "0.53.0", features = [
+    "Win32_System_Console",
+    "Win32_System_SystemInformation",
+    "Win32_System_ApplicationInstallationAndServicing",
+    "Win32_UI_Shell",
+    "Win32_UI_WindowsAndMessaging",
+    "Win32_Foundation",
+    "Win32_System_Threading",
+    "Win32_System_LibraryLoader",
+] }
+rand = "0.8.5"
+libloading = "0.8.6"
+url = "2.5.0"
+tokio = { version = "1.36.0", features = ["full"] }
+rfd = "0.14.1"
+
+[build-dependencies]
+winres = "0.1"
+chrono = "0.4.26"
