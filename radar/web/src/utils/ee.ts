@@ -205,3 +205,4 @@ export class EventEmitter<Events> implements IEventEmitter<Events> {
         return this.emitter.listenerCount(event as any);
     }
 }
+
