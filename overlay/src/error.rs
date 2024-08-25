@@ -116,3 +116,4 @@ pub enum DirectXError {
     #[error("failed to resize swap chain: {0}")]
     SwapChainResizeFailed(windows::core::Error),
 }
+
