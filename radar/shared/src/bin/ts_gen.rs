@@ -59,3 +59,4 @@ fn main() -> anyhow::Result<()> {
     println!("Definitions written to {}", target);
     Ok(())
 }
+
