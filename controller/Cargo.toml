@@ -45,3 +45,4 @@ rfd = "0.14.1"
 [build-dependencies]
 winres = "0.1"
 chrono = "0.4.26"
+
