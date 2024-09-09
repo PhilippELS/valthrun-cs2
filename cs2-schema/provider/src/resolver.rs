@@ -59,3 +59,4 @@ pub fn resolve_offset(cache: &mut Option<u64>, offset: &OffsetInfo) -> u64 {
         value
     })
 }
+
