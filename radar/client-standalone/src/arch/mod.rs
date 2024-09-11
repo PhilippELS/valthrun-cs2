@@ -29,3 +29,4 @@ pub fn show_critical_error(message: &str) {
     #[cfg(unix)]
     linux::show_critical_error(message);
 }
+
