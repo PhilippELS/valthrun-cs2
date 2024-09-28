@@ -154,3 +154,4 @@ define_weapons! {
         KnifesSkeleton { id: 525, name: "Knife (Skeleton)", flags: WEAPON_FLAG_TYPE_KNIFE },
     }
 }
+
