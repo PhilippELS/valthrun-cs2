@@ -85,3 +85,4 @@ pub fn setup_schema_from_file(states: &mut StateRegistry, file: &Path) -> anyhow
 
     Ok(())
 }
+
