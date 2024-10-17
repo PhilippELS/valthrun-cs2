@@ -127,3 +127,4 @@ impl Enhancement for BombInfoIndicator {
         Ok(())
     }
 }
+
