@@ -35,3 +35,4 @@ pub struct CUtlStringToken {
     /* pub m_pDebugName: PtrCStr = 0x08 */
 }
 
+
