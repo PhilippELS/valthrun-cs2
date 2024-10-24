@@ -10,3 +10,4 @@ impl SchemaProvider for DefaultSchemaProvider {
         Some(offset.default_value)
     }
 }
+
