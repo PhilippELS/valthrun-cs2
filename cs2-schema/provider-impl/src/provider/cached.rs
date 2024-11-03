@@ -38,3 +38,4 @@ impl SchemaProvider for CachedSchemaProvider {
         self.offsets.get(&offset).cloned()
     }
 }
+
