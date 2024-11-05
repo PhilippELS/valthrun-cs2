@@ -49,3 +49,4 @@ export const loadMap = async (name: string): Promise<LoadedMap | null> => {
 
     return await mapInfo();
 };
+
