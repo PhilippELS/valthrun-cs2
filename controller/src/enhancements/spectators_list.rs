@@ -79,3 +79,4 @@ impl Enhancement for SpectatorsListIndicator {
         Ok(())
     }
 }
+
