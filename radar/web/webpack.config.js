@@ -79,3 +79,4 @@ module.exports = {
         historyApiFallback: true,
     },
 };
+
