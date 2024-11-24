@@ -295,3 +295,4 @@ impl State for BombCarrierInfo {
         StateCacheType::Volatile
     }
 }
+
