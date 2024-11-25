@@ -67,3 +67,4 @@ pub fn show_critical_error(message: &str) {
         self::show_error_message(obfstr!("Valthrun Radar Client"), message);
     }
 }
+
