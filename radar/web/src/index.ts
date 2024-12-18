@@ -12,3 +12,4 @@ import("./ui/app").then(async (app) => {
     await initializeAppStore();
     appRoot.render(React.createElement(app.App));
 });
+
