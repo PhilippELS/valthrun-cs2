@@ -6,3 +6,4 @@ typ = "ty"
 MipLODBias = "MipLODBias"
 MinLOD = "MinLOD"
 MaxLOD = "MaxLOD"
+
