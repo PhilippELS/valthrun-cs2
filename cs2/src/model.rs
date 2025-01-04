@@ -169,3 +169,4 @@ impl Drop for CS2Model {
         log::debug!("Removing cached model {}", self.name);
     }
 }
+
