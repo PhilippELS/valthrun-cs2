@@ -884,3 +884,4 @@ impl RenderBackend for DirectXRenderBackend {
         perf.mark("directx_present");
     }
 }
+
