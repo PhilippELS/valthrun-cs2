@@ -72,3 +72,4 @@ impl<T: ?Sized> Hash for EntityHandle<T> {
 }
 
 pub type CEntityIndex = u32;
+
