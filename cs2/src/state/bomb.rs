@@ -296,3 +296,4 @@ impl State for BombCarrierInfo {
     }
 }
 
+
