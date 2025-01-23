@@ -208,3 +208,4 @@ impl Enhancement for SniperCrosshair {
         Ok(())
     }
 }
+
