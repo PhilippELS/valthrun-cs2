@@ -443,3 +443,4 @@ mod test {
         assert!(states.get::<StateB>(()).is_some());
     }
 }
+
