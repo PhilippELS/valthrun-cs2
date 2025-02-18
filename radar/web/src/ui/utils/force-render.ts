@@ -6,3 +6,4 @@ export function useForceUpdate(): () => void {
         setState(performance.now());
     }, [setState]);
 }
+
