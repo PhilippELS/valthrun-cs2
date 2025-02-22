@@ -97,3 +97,4 @@ impl EnumMember {
         Ok(())
     }
 }
+
