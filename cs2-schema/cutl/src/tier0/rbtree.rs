@@ -45,3 +45,4 @@ where
     #[field(offset = 0x08)]
     pub value: T,
 }
+
