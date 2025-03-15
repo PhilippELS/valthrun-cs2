@@ -90,3 +90,4 @@ impl Drop for PlayerInfoLayout<'_> {
         self.ui.set_window_font_scale(1.0);
     }
 }
+
