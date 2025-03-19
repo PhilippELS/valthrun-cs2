@@ -370,3 +370,4 @@ pub fn save_app_settings(settings: &AppSettings) -> anyhow::Result<()> {
     log::debug!("Saved app config.");
     Ok(())
 }
+
