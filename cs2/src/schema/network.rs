@@ -25,3 +25,4 @@ pub struct CNetworkGameClient {
     #[field(offset = 0x208)]
     pub map_name: PtrCStr,
 }
+
