@@ -244,3 +244,4 @@ pub fn create_vulkan_instance(
 
     Ok(instance)
 }
+
