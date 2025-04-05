@@ -273,3 +273,4 @@ impl RadarGenerator for CS2RadarGenerator {
         Ok(radar_state)
     }
 }
+
