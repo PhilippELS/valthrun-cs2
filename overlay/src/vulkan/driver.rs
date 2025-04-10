@@ -31,3 +31,4 @@ pub fn get_vulkan_entry() -> Result<ash::Entry, VulkanError> {
     }
     unsafe { Ok(Entry::load()?) }
 }
+
