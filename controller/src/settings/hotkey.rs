@@ -69,3 +69,4 @@ impl<'de> Deserialize<'de> for HotKey {
         deserializer.deserialize_str(HotKeyVisitor)
     }
 }
+
