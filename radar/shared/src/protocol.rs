@@ -118,3 +118,4 @@ pub enum HandshakeMessage {
     V1(HandshakeProtocolV1),
     V2(HandshakeProtocolV2),
 }
+
