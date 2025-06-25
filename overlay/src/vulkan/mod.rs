@@ -247,3 +247,4 @@ impl Drop for VulkanRenderBackend {
         };
     }
 }
+
