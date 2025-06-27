@@ -77,3 +77,4 @@ pub fn emit_to_dir(target: impl AsRef<Path>, scopes: &[SchemaScope]) -> anyhow::
 
     Ok(())
 }
+
