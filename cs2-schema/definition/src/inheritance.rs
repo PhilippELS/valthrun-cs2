@@ -75,3 +75,4 @@ impl InheritanceMap {
         result
     }
 }
+
