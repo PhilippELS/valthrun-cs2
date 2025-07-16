@@ -50,3 +50,4 @@ pub fn show_yes_no(title: &str, content: &str, default_value: bool) -> bool {
     };
     result == IDYES
 }
+
