@@ -56,3 +56,4 @@ pub struct Globals {
     #[field(offset = 0x4C)]
     pub two_tick_time: f32,
 }
+
