@@ -69,3 +69,4 @@ pub struct CCVar {
     #[field(offset = 0x56)]
     pub entries_count: u16,
 }
+
