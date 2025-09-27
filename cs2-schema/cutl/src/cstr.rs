@@ -99,3 +99,4 @@ impl<const N: usize> FixedCStringUtil for FixedCStr<N> {
         self.0.to_string_lossy()
     }
 }
+
