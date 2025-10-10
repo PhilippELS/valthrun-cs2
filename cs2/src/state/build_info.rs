@@ -70,3 +70,4 @@ impl State for StateBuildInfo {
         StateCacheType::Persistent
     }
 }
+
