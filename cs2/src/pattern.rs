@@ -99,3 +99,4 @@ impl SearchPattern for ByteSequencePattern {
             .is_none()
     }
 }
+
