@@ -32,3 +32,4 @@ export const DocumentFocusStateProvider = (props: {
 };
 
 export const useDocumentFocusState = () => useContext(ContextDocumentFocusState);
+
