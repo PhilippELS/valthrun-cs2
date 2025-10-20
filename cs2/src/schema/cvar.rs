@@ -70,3 +70,4 @@ pub struct CCVar {
     pub entries_count: u16,
 }
 
+
